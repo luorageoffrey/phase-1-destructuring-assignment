@@ -25,9 +25,38 @@ const nestedMuppet = {
   nestedPartner: 'Miss Piggy'
 };
 
+let {song2} = nestedMuppet.album.theMuppetMovie
+let {song4} = nestedMuppet.album.theMuppetMovie
+
+let {nestedJob} = nestedMuppet
+let {nestedPartner} = nestedMuppet
+
+
+let {
+  muppetName,
+  color,
+  song,
+  job,
+  partner
+}  = muppet
+
 // Strings
 
 // 1. Use destructuring to assign appropriate variables based on the sounds animals make.
+
+let [moo, neigh, baa, oink, cluck]= ["cow", "horse", "sheep","pig","chicken"]
+
+let [bessie, dolly, babe,little] = ["cow", "sheep","pig","chicken"] 
+
+let [blackAndWhite, black,  pink] = ["cow", "sheep","pig","chicken"] 
+
+const [red, orange, yellow, green, blue, indigo, violet] = ['red', 'orange', 'yellow', 'green', 'blue', 'indigo', 'violet'];
+
+const [r, o, y, g, b, i, v] = ['red', 'orange', 'yellow', 'green', 'blue', 'indigo', 'violet'];
+
+let [indg] = ["indigo"]
+
+
 
 // 2. Bolt the horse wandered off, so just give us four animals, and let's name them bessie, dolly, babe, and little.
 
